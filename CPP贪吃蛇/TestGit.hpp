@@ -15,10 +15,13 @@ using namespace std;
 class TestGit
 {
 private:
-    <#instance variables#>
+    int a;
+    int b;
     
 public:
-    <#member functions#>
+    TestGit()
+    {
+    }
     
 };
 
