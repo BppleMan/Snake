@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		690BEF911CB4C1DA00F47259 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 690BEF901CB4C1DA00F47259 /* main.cpp */; };
+		692FFCFA1CBD2B8B001215B2 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692FFCF81CBD2B8B001215B2 /* Controller.cpp */; };
+		6957654F1CBE7B1900EB262A /* Kbhit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6957654D1CBE7B1900EB262A /* Kbhit.cpp */; };
+		69CBC6B01CBD2C40008AE2D9 /* MapView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69CBC6AA1CBD2C40008AE2D9 /* MapView.cpp */; };
+		69CBC6B11CBD2C40008AE2D9 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69CBC6AC1CBD2C40008AE2D9 /* Point.cpp */; };
+		69CBC6B21CBD2C40008AE2D9 /* SnakeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69CBC6AE1CBD2C40008AE2D9 /* SnakeData.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		690BEF8D1CB4C1DA00F47259 /* CPP贪吃蛇 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP贪吃蛇"; sourceTree = BUILT_PRODUCTS_DIR; };
 		690BEF901CB4C1DA00F47259 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		692FFCF81CBD2B8B001215B2 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		692FFCF91CBD2B8B001215B2 /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		6957654D1CBE7B1900EB262A /* Kbhit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kbhit.cpp; sourceTree = "<group>"; };
+		6957654E1CBE7B1900EB262A /* Kbhit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Kbhit.hpp; sourceTree = "<group>"; };
+		69C512281CBC121500C0315D /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		69CBC6AA1CBD2C40008AE2D9 /* MapView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapView.cpp; sourceTree = "<group>"; };
+		69CBC6AB1CBD2C40008AE2D9 /* MapView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MapView.hpp; sourceTree = "<group>"; };
+		69CBC6AC1CBD2C40008AE2D9 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		69CBC6AD1CBD2C40008AE2D9 /* Point.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
+		69CBC6AE1CBD2C40008AE2D9 /* SnakeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SnakeData.cpp; sourceTree = "<group>"; };
+		69CBC6AF1CBD2C40008AE2D9 /* SnakeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SnakeData.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +73,18 @@
 		690BEF8F1CB4C1DA00F47259 /* CPP贪吃蛇 */ = {
 			isa = PBXGroup;
 			children = (
+				69C512281CBC121500C0315D /* Header.h */,
 				690BEF901CB4C1DA00F47259 /* main.cpp */,
+				692FFCF91CBD2B8B001215B2 /* Controller.hpp */,
+				692FFCF81CBD2B8B001215B2 /* Controller.cpp */,
+				69CBC6AB1CBD2C40008AE2D9 /* MapView.hpp */,
+				69CBC6AA1CBD2C40008AE2D9 /* MapView.cpp */,
+				69CBC6AD1CBD2C40008AE2D9 /* Point.hpp */,
+				69CBC6AC1CBD2C40008AE2D9 /* Point.cpp */,
+				69CBC6AF1CBD2C40008AE2D9 /* SnakeData.hpp */,
+				69CBC6AE1CBD2C40008AE2D9 /* SnakeData.cpp */,
+				6957654E1CBE7B1900EB262A /* Kbhit.hpp */,
+				6957654D1CBE7B1900EB262A /* Kbhit.cpp */,
 			);
 			path = "CPP贪吃蛇";
 			sourceTree = "<group>";
@@ -118,7 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CBC6B11CBD2C40008AE2D9 /* Point.cpp in Sources */,
+				69CBC6B01CBD2C40008AE2D9 /* MapView.cpp in Sources */,
 				690BEF911CB4C1DA00F47259 /* main.cpp in Sources */,
+				69CBC6B21CBD2C40008AE2D9 /* SnakeData.cpp in Sources */,
+				6957654F1CBE7B1900EB262A /* Kbhit.cpp in Sources */,
+				692FFCFA1CBD2B8B001215B2 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +162,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -174,7 +206,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -239,6 +271,7 @@
 				690BEF961CB4C1DA00F47259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
