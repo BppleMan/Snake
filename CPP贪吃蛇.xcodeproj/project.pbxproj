@@ -13,6 +13,7 @@
 		69CBC6B01CBD2C40008AE2D9 /* MapView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69CBC6AA1CBD2C40008AE2D9 /* MapView.cpp */; };
 		69CBC6B11CBD2C40008AE2D9 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69CBC6AC1CBD2C40008AE2D9 /* Point.cpp */; };
 		69CBC6B21CBD2C40008AE2D9 /* SnakeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69CBC6AE1CBD2C40008AE2D9 /* SnakeData.cpp */; };
+		69E836B41CFD800600378BC2 /* TestGit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E836B21CFD800600378BC2 /* TestGit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,8 @@
 		69CBC6AD1CBD2C40008AE2D9 /* Point.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
 		69CBC6AE1CBD2C40008AE2D9 /* SnakeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SnakeData.cpp; sourceTree = "<group>"; };
 		69CBC6AF1CBD2C40008AE2D9 /* SnakeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SnakeData.hpp; sourceTree = "<group>"; };
+		69E836B21CFD800600378BC2 /* TestGit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestGit.cpp; sourceTree = "<group>"; };
+		69E836B31CFD800600378BC2 /* TestGit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestGit.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				69CBC6AE1CBD2C40008AE2D9 /* SnakeData.cpp */,
 				6957654E1CBE7B1900EB262A /* Kbhit.hpp */,
 				6957654D1CBE7B1900EB262A /* Kbhit.cpp */,
+				69E836B21CFD800600378BC2 /* TestGit.cpp */,
+				69E836B31CFD800600378BC2 /* TestGit.hpp */,
 			);
 			path = "CPP贪吃蛇";
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				69CBC6B21CBD2C40008AE2D9 /* SnakeData.cpp in Sources */,
 				6957654F1CBE7B1900EB262A /* Kbhit.cpp in Sources */,
 				692FFCFA1CBD2B8B001215B2 /* Controller.cpp in Sources */,
+				69E836B41CFD800600378BC2 /* TestGit.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
